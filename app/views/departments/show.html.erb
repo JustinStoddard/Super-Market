@@ -1,2 +1,7 @@
-<h1>Departments#show</h1>
-<p>Find me in app/views/departments/show.html.erb</p>
+<h1><%= @department.name %></h1>
+<hr />
+<%= link_to 'Edit', edit_department_path(@department) %>
+<hr />
+<%= link_to 'Delete', @department, method: :delete %>
+<hr />
+<%= link_to 'Back', department_path%>
