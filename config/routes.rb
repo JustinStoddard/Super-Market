@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'department#index'
+  root 'departments#index'
 
   resources :departments
 end
